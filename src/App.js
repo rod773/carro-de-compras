@@ -1,5 +1,6 @@
 import "./App.css";
 import { Component } from "react";
+import Productos from "./components/Productos";
 
 class App extends Component {
   state = {
@@ -25,7 +26,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Carro De Compras</h1>
+        <Productos
+          agragarAlCarro={() => {
+            console.log("no hace nada");
+          }}
+          productos={this.state.peoductos}
+        />
       </div>
     );
   }
