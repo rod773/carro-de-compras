@@ -1,11 +1,11 @@
 import "./App.css";
 import { Component } from "react";
 import Productos from "./components/Productos";
-import Images from "./productos/Images";
+import Images from "./assets/Images";
 
 class App extends Component {
   state = {
-    peoductos: [
+    productos: [
       {
         name: "Tomate",
         price: 1500,
@@ -31,7 +31,7 @@ class App extends Component {
           agragarAlCarro={() => {
             console.log("no hace nada");
           }}
-          productos={this.state.peoductos}
+          productos={this.state.productos}
         />
       </div>
     );
