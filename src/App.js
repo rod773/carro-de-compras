@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div>
         <Productos
-          agragarAlCarro={() => {
+          agregarAlCarro={() => {
             console.log("no hace nada");
           }}
           productos={this.state.productos}
