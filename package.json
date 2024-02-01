@@ -1,5 +1,6 @@
 {
   "name": "carro-de-compras",
+  "homepage": "wp-content/themes/carro-de-compras",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

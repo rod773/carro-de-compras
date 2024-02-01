@@ -6,6 +6,8 @@ export class Producto extends Component {
     return (
       <div>
         <img src={producto.img} alt={producto.name} />
+        <h3>{producto.name}</h3>
+        <p>{producto.price}</p>
       </div>
     );
   }
