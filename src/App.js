@@ -2,6 +2,9 @@ import "./App.css";
 import { Component } from "react";
 import Productos from "./components/Productos";
 import Images from "./assets/Images";
+import Layout from "./components/Layout";
+import Title from "./components/Title";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   state = {
@@ -27,12 +30,16 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Productos
-          agregarAlCarro={() => {
-            console.log("no hace nada");
-          }}
-          productos={this.state.productos}
-        />
+        <Navbar />
+        <Layout>
+          <Title />
+          <Productos
+            agregarAlCarro={() => {
+              console.log("no hace nada");
+            }}
+            productos={this.state.productos}
+          />
+        </Layout>
       </div>
     );
   }
