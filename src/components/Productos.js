@@ -1,8 +1,16 @@
 import React, { Component } from "react";
+import { Producto } from "./Producto";
 
 export class Productos extends Component {
   render() {
-    return <div>Productos</div>;
+    const { productos, agragarAlCarro } = this.props;
+    return (
+      <div>
+        {productos.map((producto) => {
+          <Producto />;
+        })}
+      </div>
+    );
   }
 }
 
