@@ -1,6 +1,7 @@
 import "./App.css";
 import { Component } from "react";
 import Productos from "./components/Productos";
+import Images from "./productos/Images";
 
 class App extends Component {
   state = {
@@ -8,17 +9,17 @@ class App extends Component {
       {
         name: "Tomate",
         price: 1500,
-        img: "/productos/tomate.jpg",
+        img: Images.tomate,
       },
       {
         name: "Arbejas",
         price: 2500,
-        img: "/productos/arbejas.jpg",
+        img: Images.arbejas,
       },
       {
         name: "Lechuga",
         price: 500,
-        img: "/productos/lechuga.jpg",
+        img: Images.lachuga,
       },
     ],
   };
