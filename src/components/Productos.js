@@ -3,12 +3,16 @@ import { Producto } from "./Producto";
 
 export class Productos extends Component {
   render() {
-    const { productos, agragarAlCarro } = this.props;
+    const { productos, agregarAlCarro } = this.props;
     return (
       <div>
-        {productos.map((producto) => {
-          <Producto />;
-        })}
+        {productos.map((producto) => (
+          <Producto
+            agregarAlCarro={agregarAlCarro}
+            key={producto.name}
+            producto={producto}
+          />
+        ))}
       </div>
     );
   }
