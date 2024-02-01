@@ -13,7 +13,7 @@ export class Productos extends Component {
   render() {
     const { productos, agregarAlCarro } = this.props;
     return (
-      <div>
+      <div style={styles.productos}>
         {productos.map((producto) => (
           <Producto
             agregarAlCarro={agregarAlCarro}
