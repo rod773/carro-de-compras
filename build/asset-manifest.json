@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wp-content/themes/carro-de-compras/static/css/main.e6c13ad2.css",
-    "main.js": "/wp-content/themes/carro-de-compras/static/js/main.72e3aab5.js",
+    "main.js": "/wp-content/themes/carro-de-compras/static/js/main.a02a0861.js",
     "static/media/arbejas.jpg": "/wp-content/themes/carro-de-compras/static/media/arbejas.02eb6bcd49ecfb2ade17.jpg",
     "static/media/lechuga.jpg": "/wp-content/themes/carro-de-compras/static/media/lechuga.65345de1a92203421e4c.jpg",
     "static/media/tomate.jpg": "/wp-content/themes/carro-de-compras/static/media/tomate.de015811b565e31600ef.jpg",
     "index.html": "/wp-content/themes/carro-de-compras/index.html",
     "main.e6c13ad2.css.map": "/wp-content/themes/carro-de-compras/static/css/main.e6c13ad2.css.map",
-    "main.72e3aab5.js.map": "/wp-content/themes/carro-de-compras/static/js/main.72e3aab5.js.map"
+    "main.a02a0861.js.map": "/wp-content/themes/carro-de-compras/static/js/main.a02a0861.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.72e3aab5.js"
+    "static/js/main.a02a0861.js"
   ]
 }
