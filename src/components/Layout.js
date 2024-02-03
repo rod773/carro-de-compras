@@ -9,7 +9,8 @@ const styles = {
     flexDirection: "column",
   },
   container: {
-    width: "1200px",
+    display: "flex",
+    flexDirection: "column",
   },
 };
 
